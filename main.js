@@ -112,7 +112,7 @@ const $js = monaco.editor.create($('#js'), {
 });
 const $css = monaco.editor.create($('#css'), {
   ...options,
-  language: 'css',
+  language: 'scss',
 });
 const $html = monaco.editor.create($('#html'), {
   ...options,
